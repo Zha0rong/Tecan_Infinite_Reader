@@ -13,4 +13,6 @@ R package 'readxl'
 This is how the output file from Microplate Reader looks like:
 ![alt text](https://github.com/Zha0rong/Tecan_Infinite_Reader/blob/master/media/Test%20File.png?raw=true)
 The test file is generated using RNG, the environment and notation are randomly assigned.
-You can see that here the environment/notation is 'Yeast-BY4741-Mutant'.
+You can see that here the environment/notation is 'Drosophila-AspN/GluN' (I have no idea what this is).
+Now you run the R script. Remember to change the file\_path to the file path of your file.
+Then the data frame will be generated, like this:
