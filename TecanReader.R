@@ -1,6 +1,6 @@
 library('gdata')
 library('readxl')
-file_path='/Users/zha0rong/Desktop/Tuya/NAE2-E3-Pilot.xlsx'
+file_path='/Users/zha0rong/Desktop/Tuya/NAE2-E3-Pilot.xlsx' #Change the file path to the path of your own file#
 Number_of_Sheet=sheetCount(file_path)
 Names_of_Sheet=sheetNames(file_path)
 Environment=matrix(,ncol = 1,nrow = Number_of_Sheet)
